@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "experiment": "N2_prize_threshold",
+    "condition": "distinct bad scalars > 2^{-128}*|F|",
+    "count_field_agnostic": true,
+    "distinctness_floor": "|F| >= 8^s (Kambire Linnik window), b>=3s"
+  },
+  "field_bit_boundary_b_star": 140,
+  "witnesses": {
+    "128": {
+      "1/16": {
+        "witness": {
+          "rho": "1/16",
+          "field_bits": 128,
+          "s": 16,
+          "t": 4,
+          "r": 3,
+          "rho_val": 0.0625,
+          "capacity": 0.9375,
+          "eta": 0.125,
+          "log2_count": 5.807354922057602,
+          "target_bits": 0,
+          "floor_bits": 48.0,
+          "count_ok": true,
+          "dist_ok": true
+        },
+        "feasible": true,
+        "diagnostic": {
+          "rho": "1/16",
+          "field_bits": 128,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": 4,
+          "distinct_ok_t_max": 5,
+          "feasible": true
+        }
+      },
+      "1/8": {
+        "witness": {
+          "rho": "1/8",
+          "field_bits": 128,
+          "s": 8,
+          "t": 3,
+          "r": 3,
+          "rho_val": 0.125,
+          "capacity": 0.875,
+          "eta": 0.25,
+          "log2_count": 1.9999999999999984,
+          "target_bits": 0,
+          "floor_bits": 24.0,
+          "count_ok": true,
+          "dist_ok": true
+        },
+        "feasible": true,
+        "diagnostic": {
+          "rho": "1/8",
+          "field_bits": 128,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": 3,
+          "distinct_ok_t_max": 5,
+          "feasible": true
+        }
+      },
+      "1/4": {
+        "witness": {
+          "rho": "1/4",
+          "field_bits": 128,
+          "s": 16,
+          "t": 4,
+          "r": 6,
+          "rho_val": 0.25,
+          "capacity": 0.75,
+          "eta": 0.125,
+          "log2_count": 4.807354922057602,
+          "target_bits": 0,
+          "floor_bits": 48.0,
+          "count_ok": true,
+          "dist_ok": true
+        },
+        "feasible": true,
+        "diagnostic": {
+          "rho": "1/4",
+          "field_bits": 128,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": 4,
+          "distinct_ok_t_max": 5,
+          "feasible": true
+        }
+      },
+      "1/2": {
+        "witness": null,
+        "feasible": false,
+        "diagnostic": {
+          "rho": "1/2",
+          "field_bits": 128,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": null,
+          "distinct_ok_t_max": 5,
+          "feasible": false
+        }
+      }
+    },
+    "256": {
+      "1/16": {
+        "witness": null,
+        "feasible": false,
+        "diagnostic": {
+          "rho": "1/16",
+          "field_bits": 256,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": 9,
+          "distinct_ok_t_max": 6,
+          "feasible": false
+        }
+      },
+      "1/8": {
+        "witness": null,
+        "feasible": false,
+        "diagnostic": {
+          "rho": "1/8",
+          "field_bits": 256,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": 9,
+          "distinct_ok_t_max": 6,
+          "feasible": false
+        }
+      },
+      "1/4": {
+        "witness": null,
+        "feasible": false,
+        "diagnostic": {
+          "rho": "1/4",
+          "field_bits": 256,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": 9,
+          "distinct_ok_t_max": 6,
+          "feasible": false
+        }
+      },
+      "1/2": {
+        "witness": null,
+        "feasible": false,
+        "diagnostic": {
+          "rho": "1/2",
+          "field_bits": 256,
+          "count_kind": "sum",
+          "floor_mode": "linnik",
+          "count_ok_t": null,
+          "distinct_ok_t_max": 6,
+          "feasible": false
+        }
+      }
+    }
+  }
+}

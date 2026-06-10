@@ -1,0 +1,1570 @@
+{
+  "meta": {
+    "experiment": "interleaved_onset_precision",
+    "timestamp": "20260602_182617",
+    "elapsed_sec": 55.3,
+    "convention": "delta=radius. m=2 interleaved (columnwise) list sizes EXACT over all q^{2k} interleaved codewords. Delta scanned on the 1/n lattice from ~Johnson to capacity. onset = first lattice delta with max-list>1 over probed targets."
+  },
+  "results": [
+    {
+      "label": "GF(31)_n6_k2",
+      "field": "GF(31)",
+      "q": 31,
+      "n": 6,
+      "k": 2,
+      "rho": 0.3333333333333333,
+      "ok": true,
+      "elapsed_sec": 0.06,
+      "subgroup": {
+        "n": 6,
+        "k": 2,
+        "capacity": 0.6666666666666667,
+        "johnson": 0.42264973081037427,
+        "lattice": [
+          0.166667,
+          0.333333,
+          0.5,
+          0.666667
+        ],
+        "max_list_by_delta": {
+          "0.166667": 1,
+          "0.333333": 1,
+          "0.5": 1,
+          "0.666667": 15
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": 3.333333332689037e-07,
+        "onset_minus_johnson": 0.24401726918962574,
+        "c_onset": -1.999999999613422e-06,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 6,
+        "k": 2,
+        "capacity": 0.6666666666666667,
+        "johnson": 0.42264973081037427,
+        "lattice": [
+          0.166667,
+          0.333333,
+          0.5,
+          0.666667
+        ],
+        "max_list_by_delta": {
+          "0.166667": 1,
+          "0.333333": 1,
+          "0.5": 1,
+          "0.666667": 15
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": 3.333333332689037e-07,
+        "onset_minus_johnson": 0.24401726918962574,
+        "c_onset": -1.999999999613422e-06,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(31)_n10_k2",
+      "field": "GF(31)",
+      "q": 31,
+      "n": 10,
+      "k": 2,
+      "rho": 0.2,
+      "ok": true,
+      "elapsed_sec": 0.11,
+      "subgroup": {
+        "n": 10,
+        "k": 2,
+        "capacity": 0.8,
+        "johnson": 0.5527864045000421,
+        "lattice": [
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "max_list_by_delta": {
+          "0.4": 1,
+          "0.5": 1,
+          "0.6": 1,
+          "0.7": 4,
+          "0.8": 45
+        },
+        "onset_delta": 0.7,
+        "onset_minus_capacity": -0.10000000000000009,
+        "onset_minus_johnson": 0.14721359549995783,
+        "c_onset": 1.0000000000000009,
+        "list_at_capacity": 45,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 10,
+        "k": 2,
+        "capacity": 0.8,
+        "johnson": 0.5527864045000421,
+        "lattice": [
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "max_list_by_delta": {
+          "0.4": 1,
+          "0.5": 1,
+          "0.6": 1,
+          "0.7": 4,
+          "0.8": 45
+        },
+        "onset_delta": 0.7,
+        "onset_minus_capacity": -0.10000000000000009,
+        "onset_minus_johnson": 0.14721359549995783,
+        "c_onset": 1.0000000000000009,
+        "list_at_capacity": 45,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(61)_n6_k2",
+      "field": "GF(61)",
+      "q": 61,
+      "n": 6,
+      "k": 2,
+      "rho": 0.3333333333333333,
+      "ok": true,
+      "elapsed_sec": 0.13,
+      "subgroup": {
+        "n": 6,
+        "k": 2,
+        "capacity": 0.6666666666666667,
+        "johnson": 0.42264973081037427,
+        "lattice": [
+          0.166667,
+          0.333333,
+          0.5,
+          0.666667
+        ],
+        "max_list_by_delta": {
+          "0.166667": 1,
+          "0.333333": 1,
+          "0.5": 1,
+          "0.666667": 15
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": 3.333333332689037e-07,
+        "onset_minus_johnson": 0.24401726918962574,
+        "c_onset": -1.999999999613422e-06,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 6,
+        "k": 2,
+        "capacity": 0.6666666666666667,
+        "johnson": 0.42264973081037427,
+        "lattice": [
+          0.166667,
+          0.333333,
+          0.5,
+          0.666667
+        ],
+        "max_list_by_delta": {
+          "0.166667": 1,
+          "0.333333": 1,
+          "0.5": 1,
+          "0.666667": 15
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": 3.333333332689037e-07,
+        "onset_minus_johnson": 0.24401726918962574,
+        "c_onset": -1.999999999613422e-06,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(61)_n12_k2",
+      "field": "GF(61)",
+      "q": 61,
+      "n": 12,
+      "k": 2,
+      "rho": 0.16666666666666666,
+      "ok": true,
+      "elapsed_sec": 0.14,
+      "subgroup": {
+        "n": 12,
+        "k": 2,
+        "capacity": 0.8333333333333334,
+        "johnson": 0.591751709536137,
+        "lattice": [
+          0.5,
+          0.583333,
+          0.666667,
+          0.75,
+          0.833333
+        ],
+        "max_list_by_delta": {
+          "0.5": 1,
+          "0.583333": 1,
+          "0.666667": 1,
+          "0.75": 3,
+          "0.833333": 3
+        },
+        "onset_delta": 0.75,
+        "onset_minus_capacity": -0.08333333333333337,
+        "onset_minus_johnson": 0.15824829046386302,
+        "c_onset": 1.0000000000000004,
+        "list_at_capacity": 3,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 12,
+        "k": 2,
+        "capacity": 0.8333333333333334,
+        "johnson": 0.591751709536137,
+        "lattice": [
+          0.5,
+          0.583333,
+          0.666667,
+          0.75,
+          0.833333
+        ],
+        "max_list_by_delta": {
+          "0.5": 1,
+          "0.583333": 1,
+          "0.666667": 1,
+          "0.75": 3,
+          "0.833333": 3
+        },
+        "onset_delta": 0.75,
+        "onset_minus_capacity": -0.08333333333333337,
+        "onset_minus_johnson": 0.15824829046386302,
+        "c_onset": 1.0000000000000004,
+        "list_at_capacity": 3,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(61)_n10_k2",
+      "field": "GF(61)",
+      "q": 61,
+      "n": 10,
+      "k": 2,
+      "rho": 0.2,
+      "ok": true,
+      "elapsed_sec": 0.22,
+      "subgroup": {
+        "n": 10,
+        "k": 2,
+        "capacity": 0.8,
+        "johnson": 0.5527864045000421,
+        "lattice": [
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "max_list_by_delta": {
+          "0.4": 1,
+          "0.5": 1,
+          "0.6": 1,
+          "0.7": 2,
+          "0.8": 45
+        },
+        "onset_delta": 0.7,
+        "onset_minus_capacity": -0.10000000000000009,
+        "onset_minus_johnson": 0.14721359549995783,
+        "c_onset": 1.0000000000000009,
+        "list_at_capacity": 45,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 10,
+        "k": 2,
+        "capacity": 0.8,
+        "johnson": 0.5527864045000421,
+        "lattice": [
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "max_list_by_delta": {
+          "0.4": 1,
+          "0.5": 1,
+          "0.6": 1,
+          "0.7": 2,
+          "0.8": 45
+        },
+        "onset_delta": 0.7,
+        "onset_minus_capacity": -0.10000000000000009,
+        "onset_minus_johnson": 0.14721359549995783,
+        "c_onset": 1.0000000000000009,
+        "list_at_capacity": 45,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(31)_n15_k2",
+      "field": "GF(31)",
+      "q": 31,
+      "n": 15,
+      "k": 2,
+      "rho": 0.13333333333333333,
+      "ok": true,
+      "elapsed_sec": 0.23,
+      "subgroup": {
+        "n": 15,
+        "k": 2,
+        "capacity": 0.8666666666666667,
+        "johnson": 0.6348516283298893,
+        "lattice": [
+          0.533333,
+          0.6,
+          0.666667,
+          0.733333,
+          0.8,
+          0.866667
+        ],
+        "max_list_by_delta": {
+          "0.533333": 1,
+          "0.6": 1,
+          "0.666667": 1,
+          "0.733333": 1,
+          "0.8": 7,
+          "0.866667": 105
+        },
+        "onset_delta": 0.8,
+        "onset_minus_capacity": -0.06666666666666665,
+        "onset_minus_johnson": 0.16514837167011076,
+        "c_onset": 0.9999999999999998,
+        "list_at_capacity": 105,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 15,
+        "k": 2,
+        "capacity": 0.8666666666666667,
+        "johnson": 0.6348516283298893,
+        "lattice": [
+          0.533333,
+          0.6,
+          0.666667,
+          0.733333,
+          0.8,
+          0.866667
+        ],
+        "max_list_by_delta": {
+          "0.533333": 1,
+          "0.6": 1,
+          "0.666667": 1,
+          "0.733333": 1,
+          "0.8": 7,
+          "0.866667": 105
+        },
+        "onset_delta": 0.8,
+        "onset_minus_capacity": -0.06666666666666665,
+        "onset_minus_johnson": 0.16514837167011076,
+        "c_onset": 0.9999999999999998,
+        "list_at_capacity": 105,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(2^6)_n7_k2",
+      "field": "GF(2^6)",
+      "q": 64,
+      "n": 7,
+      "k": 2,
+      "rho": 0.2857142857142857,
+      "ok": true,
+      "elapsed_sec": 0.16,
+      "subgroup": {
+        "n": 7,
+        "k": 2,
+        "capacity": 0.7142857142857143,
+        "johnson": 0.4654775161751512,
+        "lattice": [
+          0.285714,
+          0.428571,
+          0.571429,
+          0.714286
+        ],
+        "max_list_by_delta": {
+          "0.285714": 1,
+          "0.428571": 1,
+          "0.571429": 2,
+          "0.714286": 21
+        },
+        "onset_delta": 0.571429,
+        "onset_minus_capacity": -0.14285671428571434,
+        "onset_minus_johnson": 0.10595148382484876,
+        "c_onset": 0.9999970000000004,
+        "list_at_capacity": 21,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 7,
+        "k": 2,
+        "capacity": 0.7142857142857143,
+        "johnson": 0.4654775161751512,
+        "lattice": [
+          0.285714,
+          0.428571,
+          0.571429,
+          0.714286
+        ],
+        "max_list_by_delta": {
+          "0.285714": 1,
+          "0.428571": 1,
+          "0.571429": 2,
+          "0.714286": 21
+        },
+        "onset_delta": 0.571429,
+        "onset_minus_capacity": -0.14285671428571434,
+        "onset_minus_johnson": 0.10595148382484876,
+        "c_onset": 0.9999970000000004,
+        "list_at_capacity": 21,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(61)_n15_k2",
+      "field": "GF(61)",
+      "q": 61,
+      "n": 15,
+      "k": 2,
+      "rho": 0.13333333333333333,
+      "ok": true,
+      "elapsed_sec": 0.39,
+      "subgroup": {
+        "n": 15,
+        "k": 2,
+        "capacity": 0.8666666666666667,
+        "johnson": 0.6348516283298893,
+        "lattice": [
+          0.533333,
+          0.6,
+          0.666667,
+          0.733333,
+          0.8,
+          0.866667
+        ],
+        "max_list_by_delta": {
+          "0.533333": 1,
+          "0.6": 1,
+          "0.666667": 1,
+          "0.733333": 1,
+          "0.8": 4,
+          "0.866667": 105
+        },
+        "onset_delta": 0.8,
+        "onset_minus_capacity": -0.06666666666666665,
+        "onset_minus_johnson": 0.16514837167011076,
+        "c_onset": 0.9999999999999998,
+        "list_at_capacity": 105,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 15,
+        "k": 2,
+        "capacity": 0.8666666666666667,
+        "johnson": 0.6348516283298893,
+        "lattice": [
+          0.533333,
+          0.6,
+          0.666667,
+          0.733333,
+          0.8,
+          0.866667
+        ],
+        "max_list_by_delta": {
+          "0.533333": 1,
+          "0.6": 1,
+          "0.666667": 1,
+          "0.733333": 1,
+          "0.8": 5,
+          "0.866667": 105
+        },
+        "onset_delta": 0.8,
+        "onset_minus_capacity": -0.06666666666666665,
+        "onset_minus_johnson": 0.16514837167011076,
+        "c_onset": 0.9999999999999998,
+        "list_at_capacity": 105,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(2^6)_n9_k2",
+      "field": "GF(2^6)",
+      "q": 64,
+      "n": 9,
+      "k": 2,
+      "rho": 0.2222222222222222,
+      "ok": true,
+      "elapsed_sec": 0.24,
+      "subgroup": {
+        "n": 9,
+        "k": 2,
+        "capacity": 0.7777777777777778,
+        "johnson": 0.5285954792089683,
+        "lattice": [
+          0.333333,
+          0.444444,
+          0.555556,
+          0.666667,
+          0.777778
+        ],
+        "max_list_by_delta": {
+          "0.333333": 1,
+          "0.444444": 1,
+          "0.555556": 1,
+          "0.666667": 2,
+          "0.777778": 36
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": -0.11111077777777778,
+        "onset_minus_johnson": 0.1380715207910317,
+        "c_onset": 0.999997,
+        "list_at_capacity": 36,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 9,
+        "k": 2,
+        "capacity": 0.7777777777777778,
+        "johnson": 0.5285954792089683,
+        "lattice": [
+          0.333333,
+          0.444444,
+          0.555556,
+          0.666667,
+          0.777778
+        ],
+        "max_list_by_delta": {
+          "0.333333": 1,
+          "0.444444": 1,
+          "0.555556": 1,
+          "0.666667": 3,
+          "0.777778": 36
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": -0.11111077777777778,
+        "onset_minus_johnson": 0.1380715207910317,
+        "c_onset": 0.999997,
+        "list_at_capacity": 36,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(61)_n30_k2",
+      "field": "GF(61)",
+      "q": 61,
+      "n": 30,
+      "k": 2,
+      "rho": 0.06666666666666667,
+      "ok": true,
+      "elapsed_sec": 0.34,
+      "subgroup": {
+        "n": 30,
+        "k": 2,
+        "capacity": 0.9333333333333333,
+        "johnson": 0.7418011102528389,
+        "lattice": [
+          0.7,
+          0.733333,
+          0.766667,
+          0.8,
+          0.833333,
+          0.866667,
+          0.9,
+          0.933333
+        ],
+        "max_list_by_delta": {
+          "0.7": 1,
+          "0.733333": 1,
+          "0.766667": 1,
+          "0.8": 1,
+          "0.833333": 1,
+          "0.866667": 2,
+          "0.9": 16,
+          "0.933333": 16
+        },
+        "onset_delta": 0.866667,
+        "onset_minus_capacity": -0.06666633333333338,
+        "onset_minus_johnson": 0.12486588974716106,
+        "c_onset": 1.9999900000000015,
+        "list_at_capacity": 16,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 30,
+        "k": 2,
+        "capacity": 0.9333333333333333,
+        "johnson": 0.7418011102528389,
+        "lattice": [
+          0.7,
+          0.733333,
+          0.766667,
+          0.8,
+          0.833333,
+          0.866667,
+          0.9,
+          0.933333
+        ],
+        "max_list_by_delta": {
+          "0.7": 1,
+          "0.733333": 1,
+          "0.766667": 1,
+          "0.8": 1,
+          "0.833333": 1,
+          "0.866667": 3,
+          "0.9": 15,
+          "0.933333": 15
+        },
+        "onset_delta": 0.866667,
+        "onset_minus_capacity": -0.06666633333333338,
+        "onset_minus_johnson": 0.12486588974716106,
+        "c_onset": 1.9999900000000015,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(61)_n20_k2",
+      "field": "GF(61)",
+      "q": 61,
+      "n": 20,
+      "k": 2,
+      "rho": 0.1,
+      "ok": true,
+      "elapsed_sec": 0.65,
+      "subgroup": {
+        "n": 20,
+        "k": 2,
+        "capacity": 0.9,
+        "johnson": 0.683772233983162,
+        "lattice": [
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9
+        ],
+        "max_list_by_delta": {
+          "0.6": 1,
+          "0.65": 1,
+          "0.7": 1,
+          "0.75": 1,
+          "0.8": 1,
+          "0.85": 7,
+          "0.9": 190
+        },
+        "onset_delta": 0.85,
+        "onset_minus_capacity": -0.050000000000000044,
+        "onset_minus_johnson": 0.16622776601683797,
+        "c_onset": 1.0000000000000009,
+        "list_at_capacity": 190,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 20,
+        "k": 2,
+        "capacity": 0.9,
+        "johnson": 0.683772233983162,
+        "lattice": [
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9
+        ],
+        "max_list_by_delta": {
+          "0.6": 1,
+          "0.65": 1,
+          "0.7": 1,
+          "0.75": 1,
+          "0.8": 2,
+          "0.85": 6,
+          "0.9": 190
+        },
+        "onset_delta": 0.8,
+        "onset_minus_capacity": -0.09999999999999998,
+        "onset_minus_johnson": 0.11622776601683804,
+        "c_onset": 1.9999999999999996,
+        "list_at_capacity": 190,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n6_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 6,
+      "k": 2,
+      "rho": 0.3333333333333333,
+      "ok": true,
+      "elapsed_sec": 0.52,
+      "subgroup": {
+        "n": 6,
+        "k": 2,
+        "capacity": 0.6666666666666667,
+        "johnson": 0.42264973081037427,
+        "lattice": [
+          0.166667,
+          0.333333,
+          0.5,
+          0.666667
+        ],
+        "max_list_by_delta": {
+          "0.166667": 1,
+          "0.333333": 1,
+          "0.5": 1,
+          "0.666667": 15
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": 3.333333332689037e-07,
+        "onset_minus_johnson": 0.24401726918962574,
+        "c_onset": -1.999999999613422e-06,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 6,
+        "k": 2,
+        "capacity": 0.6666666666666667,
+        "johnson": 0.42264973081037427,
+        "lattice": [
+          0.166667,
+          0.333333,
+          0.5,
+          0.666667
+        ],
+        "max_list_by_delta": {
+          "0.166667": 1,
+          "0.333333": 1,
+          "0.5": 1,
+          "0.666667": 15
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": 3.333333332689037e-07,
+        "onset_minus_johnson": 0.24401726918962574,
+        "c_onset": -1.999999999613422e-06,
+        "list_at_capacity": 15,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(2^6)_n21_k2",
+      "field": "GF(2^6)",
+      "q": 64,
+      "n": 21,
+      "k": 2,
+      "rho": 0.09523809523809523,
+      "ok": true,
+      "elapsed_sec": 0.83,
+      "subgroup": {
+        "n": 21,
+        "k": 2,
+        "capacity": 0.9047619047619048,
+        "johnson": 0.6913933000758161,
+        "lattice": [
+          0.619048,
+          0.666667,
+          0.714286,
+          0.761905,
+          0.809524,
+          0.857143,
+          0.904762
+        ],
+        "max_list_by_delta": {
+          "0.619048": 1,
+          "0.666667": 1,
+          "0.714286": 1,
+          "0.761905": 1,
+          "0.809524": 1,
+          "0.857143": 7,
+          "0.904762": 210
+        },
+        "onset_delta": 0.857143,
+        "onset_minus_capacity": -0.04761890476190478,
+        "onset_minus_johnson": 0.16574969992418387,
+        "c_onset": 0.9999970000000004,
+        "list_at_capacity": 210,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 21,
+        "k": 2,
+        "capacity": 0.9047619047619048,
+        "johnson": 0.6913933000758161,
+        "lattice": [
+          0.619048,
+          0.666667,
+          0.714286,
+          0.761905,
+          0.809524,
+          0.857143,
+          0.904762
+        ],
+        "max_list_by_delta": {
+          "0.619048": 1,
+          "0.666667": 1,
+          "0.714286": 1,
+          "0.761905": 1,
+          "0.809524": 1,
+          "0.857143": 7,
+          "0.904762": 210
+        },
+        "onset_delta": 0.857143,
+        "onset_minus_capacity": -0.04761890476190478,
+        "onset_minus_johnson": 0.16574969992418387,
+        "c_onset": 0.9999970000000004,
+        "list_at_capacity": 210,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n7_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 7,
+      "k": 2,
+      "rho": 0.2857142857142857,
+      "ok": true,
+      "elapsed_sec": 0.65,
+      "subgroup": {
+        "n": 7,
+        "k": 2,
+        "capacity": 0.7142857142857143,
+        "johnson": 0.4654775161751512,
+        "lattice": [
+          0.285714,
+          0.428571,
+          0.571429,
+          0.714286
+        ],
+        "max_list_by_delta": {
+          "0.285714": 1,
+          "0.428571": 1,
+          "0.571429": 1,
+          "0.714286": 21
+        },
+        "onset_delta": 0.714286,
+        "onset_minus_capacity": 2.8571428567492063e-07,
+        "onset_minus_johnson": 0.24880848382484877,
+        "c_onset": -1.9999999997244444e-06,
+        "list_at_capacity": 21,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 7,
+        "k": 2,
+        "capacity": 0.7142857142857143,
+        "johnson": 0.4654775161751512,
+        "lattice": [
+          0.285714,
+          0.428571,
+          0.571429,
+          0.714286
+        ],
+        "max_list_by_delta": {
+          "0.285714": 1,
+          "0.428571": 1,
+          "0.571429": 1,
+          "0.714286": 21
+        },
+        "onset_delta": 0.714286,
+        "onset_minus_capacity": 2.8571428567492063e-07,
+        "onset_minus_johnson": 0.24880848382484877,
+        "c_onset": -1.9999999997244444e-06,
+        "list_at_capacity": 21,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n9_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 9,
+      "k": 2,
+      "rho": 0.2222222222222222,
+      "ok": true,
+      "elapsed_sec": 0.77,
+      "subgroup": {
+        "n": 9,
+        "k": 2,
+        "capacity": 0.7777777777777778,
+        "johnson": 0.5285954792089683,
+        "lattice": [
+          0.333333,
+          0.444444,
+          0.555556,
+          0.666667,
+          0.777778
+        ],
+        "max_list_by_delta": {
+          "0.333333": 1,
+          "0.444444": 1,
+          "0.555556": 1,
+          "0.666667": 2,
+          "0.777778": 36
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": -0.11111077777777778,
+        "onset_minus_johnson": 0.1380715207910317,
+        "c_onset": 0.999997,
+        "list_at_capacity": 36,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 9,
+        "k": 2,
+        "capacity": 0.7777777777777778,
+        "johnson": 0.5285954792089683,
+        "lattice": [
+          0.333333,
+          0.444444,
+          0.555556,
+          0.666667,
+          0.777778
+        ],
+        "max_list_by_delta": {
+          "0.333333": 1,
+          "0.444444": 1,
+          "0.555556": 1,
+          "0.666667": 2,
+          "0.777778": 36
+        },
+        "onset_delta": 0.666667,
+        "onset_minus_capacity": -0.11111077777777778,
+        "onset_minus_johnson": 0.1380715207910317,
+        "c_onset": 0.999997,
+        "list_at_capacity": 36,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n14_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 14,
+      "k": 2,
+      "rho": 0.14285714285714285,
+      "ok": true,
+      "elapsed_sec": 1.23,
+      "subgroup": {
+        "n": 14,
+        "k": 2,
+        "capacity": 0.8571428571428572,
+        "johnson": 0.6220355269907728,
+        "lattice": [
+          0.5,
+          0.571429,
+          0.642857,
+          0.714286,
+          0.785714,
+          0.857143
+        ],
+        "max_list_by_delta": {
+          "0.5": 1,
+          "0.571429": 1,
+          "0.642857": 1,
+          "0.714286": 1,
+          "0.785714": 1,
+          "0.857143": 91
+        },
+        "onset_delta": 0.857143,
+        "onset_minus_capacity": 1.4285714278194916e-07,
+        "onset_minus_johnson": 0.23510747300922719,
+        "c_onset": -1.9999999989472883e-06,
+        "list_at_capacity": 91,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 14,
+        "k": 2,
+        "capacity": 0.8571428571428572,
+        "johnson": 0.6220355269907728,
+        "lattice": [
+          0.5,
+          0.571429,
+          0.642857,
+          0.714286,
+          0.785714,
+          0.857143
+        ],
+        "max_list_by_delta": {
+          "0.5": 1,
+          "0.571429": 1,
+          "0.642857": 1,
+          "0.714286": 1,
+          "0.785714": 1,
+          "0.857143": 91
+        },
+        "onset_delta": 0.857143,
+        "onset_minus_capacity": 1.4285714278194916e-07,
+        "onset_minus_johnson": 0.23510747300922719,
+        "c_onset": -1.9999999989472883e-06,
+        "list_at_capacity": 91,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n18_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 18,
+      "k": 2,
+      "rho": 0.1111111111111111,
+      "ok": true,
+      "elapsed_sec": 1.33,
+      "subgroup": {
+        "n": 18,
+        "k": 2,
+        "capacity": 0.8888888888888888,
+        "johnson": 0.6666666666666667,
+        "lattice": [
+          0.611111,
+          0.666667,
+          0.722222,
+          0.777778,
+          0.833333,
+          0.888889
+        ],
+        "max_list_by_delta": {
+          "0.611111": 1,
+          "0.666667": 1,
+          "0.722222": 1,
+          "0.777778": 1,
+          "0.833333": 1,
+          "0.888889": 153
+        },
+        "onset_delta": 0.888889,
+        "onset_minus_capacity": 1.1111111120065686e-07,
+        "onset_minus_johnson": 0.2222223333333333,
+        "c_onset": -2.0000000016118236e-06,
+        "list_at_capacity": 153,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 18,
+        "k": 2,
+        "capacity": 0.8888888888888888,
+        "johnson": 0.6666666666666667,
+        "lattice": [
+          0.611111,
+          0.666667,
+          0.722222,
+          0.777778,
+          0.833333,
+          0.888889
+        ],
+        "max_list_by_delta": {
+          "0.611111": 1,
+          "0.666667": 1,
+          "0.722222": 1,
+          "0.777778": 1,
+          "0.833333": 1,
+          "0.888889": 153
+        },
+        "onset_delta": 0.888889,
+        "onset_minus_capacity": 1.1111111120065686e-07,
+        "onset_minus_johnson": 0.2222223333333333,
+        "c_onset": -2.0000000016118236e-06,
+        "list_at_capacity": 153,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n21_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 21,
+      "k": 2,
+      "rho": 0.09523809523809523,
+      "ok": true,
+      "elapsed_sec": 1.65,
+      "subgroup": {
+        "n": 21,
+        "k": 2,
+        "capacity": 0.9047619047619048,
+        "johnson": 0.6913933000758161,
+        "lattice": [
+          0.619048,
+          0.666667,
+          0.714286,
+          0.761905,
+          0.809524,
+          0.857143,
+          0.904762
+        ],
+        "max_list_by_delta": {
+          "0.619048": 1,
+          "0.666667": 1,
+          "0.714286": 1,
+          "0.761905": 1,
+          "0.809524": 1,
+          "0.857143": 4,
+          "0.904762": 210
+        },
+        "onset_delta": 0.857143,
+        "onset_minus_capacity": -0.04761890476190478,
+        "onset_minus_johnson": 0.16574969992418387,
+        "c_onset": 0.9999970000000004,
+        "list_at_capacity": 210,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 21,
+        "k": 2,
+        "capacity": 0.9047619047619048,
+        "johnson": 0.6913933000758161,
+        "lattice": [
+          0.619048,
+          0.666667,
+          0.714286,
+          0.761905,
+          0.809524,
+          0.857143,
+          0.904762
+        ],
+        "max_list_by_delta": {
+          "0.619048": 1,
+          "0.666667": 1,
+          "0.714286": 1,
+          "0.761905": 1,
+          "0.809524": 2,
+          "0.857143": 7,
+          "0.904762": 210
+        },
+        "onset_delta": 0.809524,
+        "onset_minus_capacity": -0.09523790476190475,
+        "onset_minus_johnson": 0.1181306999241839,
+        "c_onset": 1.9999959999999997,
+        "list_at_capacity": 210,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n42_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 42,
+      "k": 2,
+      "rho": 0.047619047619047616,
+      "ok": true,
+      "elapsed_sec": 5.64,
+      "subgroup": {
+        "n": 42,
+        "k": 2,
+        "capacity": 0.9523809523809523,
+        "johnson": 0.7817821097640076,
+        "lattice": [
+          0.738095,
+          0.761905,
+          0.785714,
+          0.809524,
+          0.833333,
+          0.857143,
+          0.880952,
+          0.904762,
+          0.928571,
+          0.952381
+        ],
+        "max_list_by_delta": {
+          "0.738095": 1,
+          "0.761905": 1,
+          "0.785714": 1,
+          "0.809524": 1,
+          "0.833333": 1,
+          "0.857143": 1,
+          "0.880952": 1,
+          "0.904762": 3,
+          "0.928571": 3,
+          "0.952381": 861
+        },
+        "onset_delta": 0.904762,
+        "onset_minus_capacity": -0.04761895238095237,
+        "onset_minus_johnson": 0.12297989023599232,
+        "c_onset": 1.9999959999999997,
+        "list_at_capacity": 861,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 42,
+        "k": 2,
+        "capacity": 0.9523809523809523,
+        "johnson": 0.7817821097640076,
+        "lattice": [
+          0.738095,
+          0.761905,
+          0.785714,
+          0.809524,
+          0.833333,
+          0.857143,
+          0.880952,
+          0.904762,
+          0.928571,
+          0.952381
+        ],
+        "max_list_by_delta": {
+          "0.738095": 1,
+          "0.761905": 1,
+          "0.785714": 1,
+          "0.809524": 1,
+          "0.833333": 1,
+          "0.857143": 1,
+          "0.880952": 1,
+          "0.904762": 2,
+          "0.928571": 2,
+          "0.952381": 861
+        },
+        "onset_delta": 0.904762,
+        "onset_minus_capacity": -0.04761895238095237,
+        "onset_minus_johnson": 0.12297989023599232,
+        "c_onset": 1.9999959999999997,
+        "list_at_capacity": 861,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    },
+    {
+      "label": "GF(127)_n63_k2",
+      "field": "GF(127)",
+      "q": 127,
+      "n": 63,
+      "k": 2,
+      "rho": 0.031746031746031744,
+      "ok": true,
+      "elapsed_sec": 16.59,
+      "subgroup": {
+        "n": 63,
+        "k": 2,
+        "capacity": 0.9682539682539683,
+        "johnson": 0.8218258387250504,
+        "lattice": [
+          0.793651,
+          0.809524,
+          0.825397,
+          0.84127,
+          0.857143,
+          0.873016,
+          0.888889,
+          0.904762,
+          0.920635,
+          0.936508,
+          0.952381,
+          0.968254
+        ],
+        "max_list_by_delta": {
+          "0.793651": 1,
+          "0.809524": 1,
+          "0.825397": 1,
+          "0.84127": 1,
+          "0.857143": 1,
+          "0.873016": 1,
+          "0.888889": 1,
+          "0.904762": 2,
+          "0.920635": 2,
+          "0.936508": 7,
+          "0.952381": 52,
+          "0.968254": 1953
+        },
+        "onset_delta": 0.904762,
+        "onset_minus_capacity": -0.0634919682539683,
+        "onset_minus_johnson": 0.08293616127494952,
+        "c_onset": 3.9999940000000027,
+        "list_at_capacity": 1953,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      },
+      "random": {
+        "n": 63,
+        "k": 2,
+        "capacity": 0.9682539682539683,
+        "johnson": 0.8218258387250504,
+        "lattice": [
+          0.793651,
+          0.809524,
+          0.825397,
+          0.84127,
+          0.857143,
+          0.873016,
+          0.888889,
+          0.904762,
+          0.920635,
+          0.936508,
+          0.952381,
+          0.968254
+        ],
+        "max_list_by_delta": {
+          "0.793651": 1,
+          "0.809524": 1,
+          "0.825397": 1,
+          "0.84127": 1,
+          "0.857143": 1,
+          "0.873016": 1,
+          "0.888889": 1,
+          "0.904762": 1,
+          "0.920635": 2,
+          "0.936508": 5,
+          "0.952381": 55,
+          "0.968254": 1953
+        },
+        "onset_delta": 0.920635,
+        "onset_minus_capacity": -0.047618968253968275,
+        "onset_minus_johnson": 0.09880916127494954,
+        "c_onset": 2.999995000000001,
+        "list_at_capacity": 1953,
+        "exact": true,
+        "sampling": {
+          "random": 40,
+          "cwnoise": 40,
+          "shared": 40,
+          "structured_boundary": "1 per lattice delta"
+        }
+      }
+    }
+  ]
+}

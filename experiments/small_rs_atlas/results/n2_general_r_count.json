@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "experiment": "N2_general_r_count",
+    "claim": "distinct-bad-scalar count is field-agnostic (char0==prime==genuine ext)"
+  },
+  "field_agnosticism_Nfire": [
+    {
+      "s": 8,
+      "r": 4,
+      "char0": 9,
+      "prime": 9,
+      "p1": 200009,
+      "ext": 9,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 8,
+      "r": 5,
+      "char0": 8,
+      "prime": 8,
+      "p1": 200009,
+      "ext": 8,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 16,
+      "r": 4,
+      "char0": 49,
+      "prime": 49,
+      "p1": 200017,
+      "ext": 49,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 16,
+      "r": 5,
+      "char0": 16,
+      "prime": 16,
+      "p1": 200017,
+      "ext": 16,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 16,
+      "r": 8,
+      "char0": 49,
+      "prime": 49,
+      "p1": 200017,
+      "ext": 49,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 16,
+      "r": 9,
+      "char0": 48,
+      "prime": 48,
+      "p1": 200017,
+      "ext": 48,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 16,
+      "r": 12,
+      "char0": 17,
+      "prime": 17,
+      "p1": 200017,
+      "ext": 17,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 16,
+      "r": 13,
+      "char0": 16,
+      "prime": 16,
+      "p1": 200017,
+      "ext": 16,
+      "p2": 463,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 32,
+      "r": 4,
+      "char0": 225,
+      "prime": 225,
+      "p1": 200033,
+      "ext": 225,
+      "p2": 479,
+      "xi_genuine_ext": true,
+      "match": true
+    },
+    {
+      "s": 32,
+      "r": 5,
+      "char0": 32,
+      "prime": 32,
+      "p1": 200033,
+      "ext": 32,
+      "p2": 479,
+      "xi_genuine_ext": true,
+      "match": true
+    }
+  ],
+  "genuine_witness_split": [
+    {
+      "field": "GF(31^2)",
+      "s": 8,
+      "r": 4,
+      "distinct": 9,
+      "genuine": 9
+    },
+    {
+      "field": "GF(31^2)",
+      "s": 16,
+      "r": 4,
+      "distinct": 49,
+      "genuine": 49
+    },
+    {
+      "field": "GF(31^2)",
+      "s": 16,
+      "r": 8,
+      "distinct": 49,
+      "genuine": 49
+    },
+    {
+      "field": "GF(31^2)",
+      "s": 32,
+      "r": 4,
+      "distinct": 609,
+      "genuine": 609
+    },
+    {
+      "field": "GF(127^2)",
+      "s": 8,
+      "r": 4,
+      "distinct": 9,
+      "genuine": 9
+    },
+    {
+      "field": "GF(127^2)",
+      "s": 16,
+      "r": 4,
+      "distinct": 49,
+      "genuine": 49
+    },
+    {
+      "field": "GF(127^2)",
+      "s": 16,
+      "r": 8,
+      "distinct": 49,
+      "genuine": 49
+    }
+  ],
+  "all_match": true
+}

@@ -1,0 +1,332 @@
+{
+  "experiment": "verify_rho_half_sums",
+  "purpose": "distinct-subset-sum count for the Kambire line at the boundary rate rho=1/2",
+  "convention": "H=<zeta_s> order s (=2^alpha); r-fold distinct-element sumset H^(+r); rho=(r-2)/s; rho=1/2 <=> r=s/2+2.",
+  "algebraic_sumset_table": [
+    {
+      "s": 8,
+      "r": 2,
+      "rho": 0.0,
+      "binom_s_r": 28,
+      "true_count_|H^(+r)|": 25,
+      "kambire_binom_half_r": 6,
+      "algebraic_collisions": 3,
+      "closed_form": 25
+    },
+    {
+      "s": 8,
+      "r": 3,
+      "rho": 0.125,
+      "binom_s_r": 56,
+      "true_count_|H^(+r)|": 40,
+      "kambire_binom_half_r": 4,
+      "algebraic_collisions": 16,
+      "closed_form": 40
+    },
+    {
+      "s": 8,
+      "r": 4,
+      "rho": 0.25,
+      "binom_s_r": 70,
+      "true_count_|H^(+r)|": 41,
+      "kambire_binom_half_r": 1,
+      "algebraic_collisions": 29,
+      "closed_form": 41
+    },
+    {
+      "s": 8,
+      "r": 5,
+      "rho": 0.375,
+      "binom_s_r": 56,
+      "true_count_|H^(+r)|": 40,
+      "kambire_binom_half_r": 0,
+      "algebraic_collisions": 16,
+      "closed_form": 40
+    },
+    {
+      "s": 8,
+      "r": 6,
+      "rho": 0.5,
+      "binom_s_r": 28,
+      "true_count_|H^(+r)|": 25,
+      "kambire_binom_half_r": 0,
+      "algebraic_collisions": 3,
+      "closed_form": 25
+    },
+    {
+      "s": 16,
+      "r": 2,
+      "rho": 0.0,
+      "binom_s_r": 120,
+      "true_count_|H^(+r)|": 113,
+      "kambire_binom_half_r": 28,
+      "algebraic_collisions": 7,
+      "closed_form": 113
+    },
+    {
+      "s": 16,
+      "r": 3,
+      "rho": 0.0625,
+      "binom_s_r": 560,
+      "true_count_|H^(+r)|": 464,
+      "kambire_binom_half_r": 56,
+      "algebraic_collisions": 96,
+      "closed_form": 464
+    },
+    {
+      "s": 16,
+      "r": 4,
+      "rho": 0.125,
+      "binom_s_r": 1820,
+      "true_count_|H^(+r)|": 1233,
+      "kambire_binom_half_r": 70,
+      "algebraic_collisions": 587,
+      "closed_form": 1233
+    },
+    {
+      "s": 16,
+      "r": 5,
+      "rho": 0.1875,
+      "binom_s_r": 4368,
+      "true_count_|H^(+r)|": 2256,
+      "kambire_binom_half_r": 56,
+      "algebraic_collisions": 2112,
+      "closed_form": 2256
+    },
+    {
+      "s": 16,
+      "r": 6,
+      "rho": 0.25,
+      "binom_s_r": 8008,
+      "true_count_|H^(+r)|": 3025,
+      "kambire_binom_half_r": 28,
+      "algebraic_collisions": 4983,
+      "closed_form": 3025
+    },
+    {
+      "s": 16,
+      "r": 7,
+      "rho": 0.3125,
+      "binom_s_r": 11440,
+      "true_count_|H^(+r)|": 3280,
+      "kambire_binom_half_r": 8,
+      "algebraic_collisions": 8160,
+      "closed_form": 3280
+    },
+    {
+      "s": 16,
+      "r": 8,
+      "rho": 0.375,
+      "binom_s_r": 12870,
+      "true_count_|H^(+r)|": 3281,
+      "kambire_binom_half_r": 1,
+      "algebraic_collisions": 9589,
+      "closed_form": 3281
+    },
+    {
+      "s": 16,
+      "r": 9,
+      "rho": 0.4375,
+      "binom_s_r": 11440,
+      "true_count_|H^(+r)|": 3280,
+      "kambire_binom_half_r": 0,
+      "algebraic_collisions": 8160,
+      "closed_form": 3280
+    },
+    {
+      "s": 16,
+      "r": 10,
+      "rho": 0.5,
+      "binom_s_r": 8008,
+      "true_count_|H^(+r)|": 3025,
+      "kambire_binom_half_r": 0,
+      "algebraic_collisions": 4983,
+      "closed_form": 3025
+    }
+  ],
+  "rho_half_lower_bound": {
+    "formula": "|H^(+(s/2+2))| >= binom(s/2,2)*2^(s/2-2) = Theta(s^2 * 2^(s/2))",
+    "as_power_of_n": "n^{(K ln2)/2} (s = K ln n); beats n^C iff K > 2C/ln2 = 2.885 C",
+    "kambire_binom_half_r_at_rho_half": "binom(s/2, s/2+2) = 0  (vacuous)",
+    "kambire_K_threshold_diverges": "C/(rho*ln(1/(2rho))) -> inf as rho->1/2",
+    "values": [
+      {
+        "s": 8,
+        "r": 6,
+        "lower_bound_binom_half_2_times_2pow": 24
+      },
+      {
+        "s": 16,
+        "r": 10,
+        "lower_bound_binom_half_2_times_2pow": 1792
+      },
+      {
+        "s": 32,
+        "r": 18,
+        "lower_bound_binom_half_2_times_2pow": 1966080
+      },
+      {
+        "s": 64,
+        "r": 34,
+        "lower_bound_binom_half_2_times_2pow": 532575944704
+      },
+      {
+        "s": 128,
+        "r": 66,
+        "lower_bound_binom_half_2_times_2pow": 9297159013149614014464
+      },
+      {
+        "s": 256,
+        "r": 130,
+        "lower_bound_binom_half_2_times_2pow": 691453769583346957757577202301353005678592
+      }
+    ]
+  },
+  "prime_field_check_q3": [
+    {
+      "p": 50033,
+      "n": 16,
+      "s": 8,
+      "m": 2,
+      "r": 2,
+      "rho": 0.0,
+      "binom_s_r": 28,
+      "sums_mod_p": 25,
+      "alg_count": 25,
+      "match": true
+    },
+    {
+      "p": 50033,
+      "n": 16,
+      "s": 8,
+      "m": 2,
+      "r": 4,
+      "rho": 0.25,
+      "binom_s_r": 70,
+      "sums_mod_p": 41,
+      "alg_count": 41,
+      "match": true
+    },
+    {
+      "p": 50033,
+      "n": 16,
+      "s": 8,
+      "m": 2,
+      "r": 6,
+      "rho": 0.5,
+      "binom_s_r": 28,
+      "sums_mod_p": 25,
+      "alg_count": 25,
+      "match": true
+    },
+    {
+      "p": 50177,
+      "n": 32,
+      "s": 8,
+      "m": 4,
+      "r": 2,
+      "rho": 0.0,
+      "binom_s_r": 28,
+      "sums_mod_p": 25,
+      "alg_count": 25,
+      "match": true
+    },
+    {
+      "p": 50177,
+      "n": 32,
+      "s": 8,
+      "m": 4,
+      "r": 4,
+      "rho": 0.25,
+      "binom_s_r": 70,
+      "sums_mod_p": 41,
+      "alg_count": 41,
+      "match": true
+    },
+    {
+      "p": 50177,
+      "n": 32,
+      "s": 8,
+      "m": 4,
+      "r": 6,
+      "rho": 0.5,
+      "binom_s_r": 28,
+      "sums_mod_p": 25,
+      "alg_count": 25,
+      "match": true
+    },
+    {
+      "p": 50177,
+      "n": 32,
+      "s": 16,
+      "m": 2,
+      "r": 4,
+      "rho": 0.125,
+      "binom_s_r": 1820,
+      "sums_mod_p": 1233,
+      "alg_count": 1233,
+      "match": true
+    },
+    {
+      "p": 65633,
+      "n": 32,
+      "s": 16,
+      "m": 2,
+      "r": 8,
+      "rho": 0.375,
+      "binom_s_r": 12870,
+      "sums_mod_p": 3281,
+      "alg_count": 3281,
+      "match": true
+    },
+    {
+      "p": 60737,
+      "n": 32,
+      "s": 16,
+      "m": 2,
+      "r": 10,
+      "rho": 0.5,
+      "binom_s_r": 8008,
+      "sums_mod_p": 3025,
+      "alg_count": 3025,
+      "match": true
+    },
+    {
+      "p": 50177,
+      "n": 64,
+      "s": 16,
+      "m": 4,
+      "r": 4,
+      "rho": 0.125,
+      "binom_s_r": 1820,
+      "sums_mod_p": 1233,
+      "alg_count": 1233,
+      "match": true
+    },
+    {
+      "p": 65729,
+      "n": 64,
+      "s": 16,
+      "m": 4,
+      "r": 8,
+      "rho": 0.375,
+      "binom_s_r": 12870,
+      "sums_mod_p": 3281,
+      "alg_count": 3281,
+      "match": true
+    },
+    {
+      "p": 60737,
+      "n": 64,
+      "s": 16,
+      "m": 4,
+      "r": 10,
+      "rho": 0.5,
+      "binom_s_r": 8008,
+      "sums_mod_p": 3025,
+      "alg_count": 3025,
+      "match": true
+    }
+  ],
+  "verdict": "Count is NOT the obstruction at rho=1/2: the TRUE sumset is n^{Theta(K)} (exact closed form sum_u binom(s/2,u)2^u), beating n^C. Kambire's stated binom(s/2,r) lower bound and his K-threshold both DEGENERATE at rho=1/2, so the theorem AS WRITTEN does not apply; a stronger (correct) count lemma closes the count. The number theory and degree obstruction are rate-blind."
+}
