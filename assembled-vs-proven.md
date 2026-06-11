@@ -19,13 +19,27 @@ PROVEN tag exact, so a red-team review can target it directly.
    surface beyond ordinary citation trust; the construction is also reproduced
    computationally at small scale (`experiments/small_rs_atlas/counterexample_kambire.py`).
 2. **KK25 Lemma 9 distinctness** (the `{−1,0,+1}` cyclotomic-independence /
-   resultant-distinctness bound) — **CITED, NOT RE-PROVED**. This is the load-bearing
-   import. Where we use it *inside* its stated range (`r ≤ φ(s)/2`, prime calibration
-   `p > φ(s)^{φ(s)}`), the only gap is that we have not re-derived its proof.
-   Where the ρ = 1/2 close-out (sub-lemma N1) needs it *past* its stated range,
-   the claim is explicitly **CONDITIONAL** — that extension is named, numerically
-   airtight in every tested case (zero counterexamples through `s = 32`), and
-   unformalized. **This is the single place the assembly could break.**
+   resultant-distinctness bound) — **CITED, NOT RE-PROVED → PARTIALLY DISCHARGED
+   (2026-06-11 update)**. The published successor **KKH eprint 2026/782 (Krachun–
+   Kazanin–Haböck), Lemma 1** now *proves* the cyclotomic/resultant distinctness
+   statement in print: prime field, `G ≤ F_p^*` of power-of-two order `s`,
+   `1 ≤ r ≤ s/2`, printed prime bound `p > s^{s/2}`, count `2^r·C(s/2, r)`
+   (stronger count than the KK25 sketch's `C(φ(s), r)`). Verified against our
+   usage row-by-row (`literature/notes/kkh-2026-782-verification.md`):
+   the **64-bit and 128-bit rows at ρ ∈ {1/4, 1/8, 1/16} are now backed by the
+   printed statement** (`2^64 > 2^32 = 16^8`; `2^128 > 2^80 = 32^16`); the
+   **31-bit row** (`p ≈ 2^31 < 2^32`) is covered by the *proof's* sharper
+   intermediate bound `p > (2r)^{φ(s)}` (`≤ 2^28.7` at the deployed non-N1
+   rates) but **not by the printed statement** — a proof-level inference, one
+   grade below a verbatim citation. Where the ρ = 1/2 close-out (sub-lemma N1)
+   needs `r = s/2 + 2`, *past* both the KK25 and the KKH-782 printed ranges,
+   the claim remains explicitly **CONDITIONAL** — named, numerically airtight
+   (zero counterexamples through `s = 32`), unformalized; KKH-782's appendix
+   proves an all-δ quotient-line counterexample *without* Lemma 1
+   (asymptotic), which supports the method but does not supply the per-field
+   `ρ = 1/2` row. **The residual risk surface is therefore narrowed to: the
+   31-bit printed-statement gap (proof-level covered) and the N1 range
+   extension.**
 3. **Threshold arithmetic** (does the bad-scalar count clear `2^{b−128}`?) —
    **OURS, PROVEN** (exact integer arithmetic, regenerated tables,
    `calculator/bounds.py::kambire_smax`, 40/40 tests). The R13 s-integrality
@@ -37,10 +51,15 @@ PROVEN tag exact, so a red-team review can target it directly.
 
 ## Exactly what would upgrade ASSEMBLED → PROVEN
 
-- Re-derive (or have a referee verify) KK25 Lemma 9 within its stated range: the
-  31/64/128-bit rows then become PROVEN as stated.
-- Formalize the named out-of-range extension: sub-lemma N1's conditional closure at
-  ρ = 1/2 then becomes unconditional.
+- ~~Re-derive (or have a referee verify) KK25 Lemma 9 within its stated range~~
+  **DONE in print for the 64/128-bit non-N1 rows** (KKH 2026/782 Lemma 1,
+  2026-06-11 verification read). Remaining for full upgrade: a stated (not
+  proof-mined) distinctness theorem covering 31-bit primes at `s = 16` — i.e.,
+  the fixed-`r` calibration `p > (2r)^{φ(s)}` promoted from KKH-782's proof to
+  a citable statement (or a one-page re-derivation, which the proof makes
+  routine).
+- Formalize the named out-of-range extension (`r = s/2 + 2`): sub-lemma N1's
+  conditional closure at ρ = 1/2 then becomes unconditional.
 - Neither upgrade changes any tabled number; the values are already computed at the
   calibrations the lemma's stated range supports (the conditional extension affects
   only the ρ = 1/2 close-out's *status*, not its value).
